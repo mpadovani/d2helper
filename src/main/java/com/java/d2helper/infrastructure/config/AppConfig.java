@@ -14,13 +14,4 @@ public class AppConfig {
     public RestTemplate restTemplate() {
         return new RestTemplate();
     }
-//    @Bean
-//    public TerrorzoneApiClient terrorzoneApiClient(RestTemplate restTemplate) {
-//        return new TerrorzoneApiClient(restTemplate);
-//    }
-//
-//    @Bean
-//    public TerrorzoneUseCase terrorZoneUseCase(TerrorzoneApiClient terrorzoneApiClient) {
-//        return new TerrorzoneUseCase(terrorzoneApiClient);
-//    }
 }
