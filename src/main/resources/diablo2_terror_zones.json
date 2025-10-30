@@ -1,0 +1,176 @@
+[
+  {
+    "act": 1,
+    "zone": "Blood Moor / Den of Evil",
+    "immunities": [
+      "fire",
+      "cold"
+    ],
+    "monster_density": "low",
+    "monster_level": 1,
+    "difficulty": "easy"
+  },
+  {
+    "act": 1,
+    "zone": "Cold Plains / The Cave",
+    "immunities": [
+      "cold",
+      "fire",
+      "lightning"
+    ],
+    "monster_density": "medium",
+    "monster_level": 3,
+    "difficulty": "easy"
+  },
+  {
+    "act": 1,
+    "zone": "Burial Grounds / The Crypt / The Mausoleum",
+    "immunities": [
+      "lightning"
+    ],
+    "monster_density": "medium",
+    "monster_level": 5,
+    "difficulty": "easy"
+  },
+  {
+    "act": 1,
+    "zone": "Stony Field",
+    "immunities": [
+      "cold",
+      "fire",
+      "lightning",
+      "poison"
+    ],
+    "monster_density": "medium",
+    "monster_level": 5,
+    "difficulty": "medium"
+  },
+  {
+    "act": 1,
+    "zone": "Dark Wood / Underground Passage",
+    "immunities": [
+      "cold",
+      "fire",
+      "poison",
+      "lightning"
+    ],
+    "monster_density": "medium",
+    "monster_level": 6,
+    "difficulty": "medium"
+  },
+  {
+    "act": 1,
+    "zone": "Black Marsh / The Hole",
+    "immunities": [
+      "fire",
+      "cold",
+      "lightning",
+      "poison"
+    ],
+    "monster_density": "high",
+    "monster_level": 8,
+    "difficulty": "medium"
+  },
+  {
+    "act": 1,
+    "zone": "The Forgotten Tower",
+    "immunities": [
+      "fire",
+      "lightning",
+      "poison"
+    ],
+    "monster_density": "medium",
+    "monster_level": 7,
+    "difficulty": "medium"
+  },
+  {
+    "act": 1,
+    "zone": "Jail / Barracks",
+    "immunities": [
+      "cold",
+      "fire",
+      "poison",
+      "physical"
+    ],
+    "monster_density": "high",
+    "monster_level": 8,
+    "difficulty": "medium"
+  },
+  {
+    "act": 1,
+    "zone": "Cathedral & Catacombs",
+    "immunities": [
+      "cold",
+      "fire",
+      "poison",
+      "physical",
+      "lightning"
+    ],
+    "monster_density": "high",
+    "monster_level": 10,
+    "difficulty": "hard"
+  },
+  {
+    "act": 1,
+    "zone": "The Pit",
+    "immunities": [
+      "cold",
+      "fire"
+    ],
+    "monster_density": "high",
+    "monster_level": 15,
+    "difficulty": "hard"
+  },
+  {
+    "act": 1,
+    "zone": "Tristram",
+    "immunities": [
+      "fire",
+      "lightning",
+      "poison"
+    ],
+    "monster_density": "medium",
+    "monster_level": 12,
+    "difficulty": "medium"
+  },
+  {
+    "act": 1,
+    "zone": "Moo Moo Farm",
+    "immunities": [
+      "fire",
+      "lightning"
+    ],
+    "monster_density": "medium",
+    "monster_level": 12,
+    "difficulty": "medium"
+  },
+  {
+    "act": 2,
+    "zone": "Lost City / Valley of Snakes / Claw Viper Temple",
+    "immunities": [
+      "fire",
+      "lightning",
+      "poison",
+      "cold",
+      "magic"
+    ],
+    "monster_density": "high",
+    "monster_level": 20,
+    "difficulty": "hard"
+  },
+  {
+    "act": 5,
+    "zone": "Worldstone Keep / Throne of Destruction / Worldstone Chamber",
+    "immunities": [
+      "fire",
+      "lightning",
+      "poison",
+      "cold",
+      "physical",
+      "magic"
+    ],
+    "monster_density": "high",
+    "monster_level": 50,
+    "difficulty": "hard"
+  }
+]
