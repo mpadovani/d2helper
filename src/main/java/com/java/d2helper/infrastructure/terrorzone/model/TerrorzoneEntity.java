@@ -1,27 +1,26 @@
-package com.java.d2helper.domain.model;
+package com.java.d2helper.infrastructure.terrorzone.model;
+import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.mapping.Document;
+import java.time.Instant;
 
-public class Terrorzone {
+@Document(collection = "terrorzone")
+public class TerrorzoneEntity {
+    @Id
     private Long id;
     private String current_zone;
     private String current_act;
     private String next_zone;
     private String next_act;
+    private Instant createdAt = Instant.now();
 
-    public Terrorzone(Long id, String current_zone, String current_act, String next_zone, String next_act) {
+    public TerrorzoneEntity() {}
+
+    public TerrorzoneEntity(Long id, String current_zone, String current_act, String next_zone, String next_act) {
         this.id = id;
         this.current_zone = current_zone;
         this.current_act = current_act;
         this.next_zone = next_zone;
         this.next_act = next_act;
-    }
-
-    public Terrorzone(Long id, TerrozoneApiResponse terrozoneApiResponse) {
-        this.id = id;
-        this.current_zone = terrozoneApiResponse.currentTerrorZone().zone();
-        this.current_act = terrozoneApiResponse.currentTerrorZone().act();
-
-        this.next_zone = terrozoneApiResponse.nextTerrorZone().zone();
-        this.next_act = terrozoneApiResponse.nextTerrorZone().act();
     }
 
     public Long getId() { return id; }

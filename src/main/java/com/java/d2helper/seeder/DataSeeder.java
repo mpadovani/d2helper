@@ -1,9 +1,8 @@
 package com.java.d2helper.seeder;
-
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.java.d2helper.domain.model.Zone;
-import com.java.d2helper.infrastructure.repository.MongoZoneRepository;
+import com.java.d2helper.infrastructure.zone.model.ZoneEntity;
+import com.java.d2helper.infrastructure.zone.repository.MongoZoneRepository;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.context.annotation.Bean;
 import org.springframework.stereotype.Component;
@@ -34,10 +33,10 @@ public class DataSeeder {
 
     private void backupMongo(String fileName) {
         ObjectMapper mapper = new ObjectMapper();
-        TypeReference<List<Zone>> typeReference = new TypeReference<>() {};
+        TypeReference<List<ZoneEntity>> typeReference = new TypeReference<>() {};
         InputStream inputStream = TypeReference.class.getResourceAsStream(fileName);
         try {
-            List<Zone> zones = mapper.readValue(inputStream, typeReference);
+            List<ZoneEntity> zones = mapper.readValue(inputStream, typeReference);
             zoneRepository.saveAll(zones);
             System.out.println("Terror Zones inicializadas no MongoDB!");
         } catch (Exception e) {

@@ -1,10 +1,9 @@
 package com.java.d2helper.application.usecase;
+import com.java.d2helper.application.ports.TerrorzoneClient;
+import com.java.d2helper.application.ports.TerrorzoneRepositoryPort;
 import com.java.d2helper.domain.model.Terrorzone;
 import com.java.d2helper.domain.model.TerrozoneApiResponse;
-import com.java.d2helper.infrastructure.external.TerrorzoneApiClient;
-import com.java.d2helper.infrastructure.repository.TerrorzoneRepository;
 import org.springframework.stereotype.Service;
-
 import java.time.Instant;
 import java.time.LocalDateTime;
 import java.time.ZoneOffset;
@@ -12,13 +11,13 @@ import java.time.temporal.ChronoUnit;
 
 @Service
 public class TerrorzoneUseCase {
-    private TerrorzoneApiClient apiClient;
-    private final TerrorzoneRepository repository;
+    private TerrorzoneClient apiClient;
+    private final TerrorzoneRepositoryPort repository;
 
-    public TerrorzoneUseCase(TerrorzoneApiClient terrorzoneClient,
-                             TerrorzoneRepository repository) {
+    public TerrorzoneUseCase(TerrorzoneClient terrorzoneClient,
+                             TerrorzoneRepositoryPort newRepository) {
         this.apiClient = terrorzoneClient;
-        this.repository = repository;
+        this.repository = newRepository;
     }
 
     public Terrorzone get() {
@@ -28,7 +27,7 @@ public class TerrorzoneUseCase {
 
     private Terrorzone generateNewTerrorzone(Long id) {
         TerrozoneApiResponse terrozoneApiResponse = apiClient.fetchFromApi();
-        Terrorzone newTerrorzone = new Terrorzone(generateId(), terrozoneApiResponse);
+        Terrorzone newTerrorzone = new Terrorzone(id, terrozoneApiResponse);
         repository.save(newTerrorzone);
         return newTerrorzone;
     }

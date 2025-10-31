@@ -172,5 +172,262 @@
     "monster_density": "high",
     "monster_level": 50,
     "difficulty": "hard"
+  },
+
+  {
+    "act": 2,
+    "zone": "Lut Gholein / Sewers",
+    "immunities": [],
+    "monster_density": null,
+    "monster_level": null,
+    "difficulty": null
+  },
+  {
+    "act": 2,
+    "zone": "Rocky Waste / Stony Tomb",
+    "immunities": [],
+    "monster_density": null,
+    "monster_level": null,
+    "difficulty": null
+  },
+  {
+    "act": 2,
+    "zone": "Dry Hills / Halls of the Dead",
+    "immunities": [],
+    "monster_density": null,
+    "monster_level": null,
+    "difficulty": null
+  },
+  {
+    "act": 2,
+    "zone": "Far Oasis / Maggot Lair",
+    "immunities": [],
+    "monster_density": null,
+    "monster_level": null,
+    "difficulty": null
+  },
+  {
+    "act": 2,
+    "zone": "Lost City / Ancient Tunnels",
+    "immunities": [],
+    "monster_density": null,
+    "monster_level": null,
+    "difficulty": null
+  },
+  {
+    "act": 2,
+    "zone": "Valley of Snakes / Claw Viper Temple",
+    "immunities": [],
+    "monster_density": null,
+    "monster_level": null,
+    "difficulty": null
+  },
+  {
+    "act": 2,
+    "zone": "Palace / Harem / Palace Cellar",
+    "immunities": [],
+    "monster_density": null,
+    "monster_level": null,
+    "difficulty": null
+  },
+  {
+    "act": 2,
+    "zone": "Arcane Sanctuary / Canyon of the Magi / Tal Rasha's Tomb",
+    "immunities": [],
+    "monster_density": null,
+    "monster_level": null,
+    "difficulty": null
+  },
+  {
+    "act": 3,
+    "zone": "Kurast Docks",
+    "immunities": [],
+    "monster_density": null,
+    "monster_level": null,
+    "difficulty": null
+  },
+  {
+    "act": 3,
+    "zone": "Spider Forest / Arachnid Lair / Spider Cavern",
+    "immunities": [],
+    "monster_density": null,
+    "monster_level": null,
+    "difficulty": null
+  },
+  {
+    "act": 3,
+    "zone": "Great Marsh",
+    "immunities": [],
+    "monster_density": null,
+    "monster_level": null,
+    "difficulty": null
+  },
+  {
+    "act": 3,
+    "zone": "Flayer Jungle / Swampy Pit / Flayer Dungeon",
+    "immunities": [],
+    "monster_density": null,
+    "monster_level": null,
+    "difficulty": null
+  },
+  {
+    "act": 3,
+    "zone": "Lower Kurast / Kurast Bazaar / Sewers",
+    "immunities": [],
+    "monster_density": null,
+    "monster_level": null,
+    "difficulty": null
+  },
+  {
+    "act": 3,
+    "zone": "Upper Kurast / Forgotten Reliquary / Forgotten Temple",
+    "immunities": [],
+    "monster_density": null,
+    "monster_level": null,
+    "difficulty": null
+  },
+  {
+    "act": 3,
+    "zone": "Kurast Causeway / Ruined Fane / Disused Reliquary",
+    "immunities": [],
+    "monster_density": null,
+    "monster_level": null,
+    "difficulty": null
+  },
+  {
+    "act": 3,
+    "zone": "Travincal",
+    "immunities": [],
+    "monster_density": null,
+    "monster_level": null,
+    "difficulty": null
+  },
+  {
+    "act": 3,
+    "zone": "Durance of Hate Level 1/2/3",
+    "immunities": [],
+    "monster_density": null,
+    "monster_level": null,
+    "difficulty": null
+  },
+  {
+    "act": 4,
+    "zone": "The Pandemonium Fortress",
+    "immunities": [],
+    "monster_density": null,
+    "monster_level": null,
+    "difficulty": null
+  },
+  {
+    "act": 4,
+    "zone": "Outer Steppes",
+    "immunities": [],
+    "monster_density": null,
+    "monster_level": null,
+    "difficulty": null
+  },
+  {
+    "act": 4,
+    "zone": "Plains of Despair",
+    "immunities": [],
+    "monster_density": null,
+    "monster_level": null,
+    "difficulty": null
+  },
+  {
+    "act": 4,
+    "zone": "City of the Damned",
+    "immunities": [],
+    "monster_density": null,
+    "monster_level": null,
+    "difficulty": null
+  },
+  {
+    "act": 4,
+    "zone": "River of Flame",
+    "immunities": [],
+    "monster_density": null,
+    "monster_level": null,
+    "difficulty": null
+  },
+  {
+    "act": 4,
+    "zone": "The Chaos Sanctuary",
+    "immunities": [],
+    "monster_density": null,
+    "monster_level": null,
+    "difficulty": null
+  },
+  {
+    "act": 5,
+    "zone": "Harrogath",
+    "immunities": [],
+    "monster_density": null,
+    "monster_level": null,
+    "difficulty": null
+  },
+  {
+    "act": 5,
+    "zone": "Bloody Foothills",
+    "immunities": [],
+    "monster_density": null,
+    "monster_level": null,
+    "difficulty": null
+  },
+  {
+    "act": 5,
+    "zone": "Frigid Highlands / Abaddon",
+    "immunities": [],
+    "monster_density": null,
+    "monster_level": null,
+    "difficulty": null
+  },
+  {
+    "act": 5,
+    "zone": "Arreat Plateau / Pit of Acheron",
+    "immunities": [],
+    "monster_density": null,
+    "monster_level": null,
+    "difficulty": null
+  },
+  {
+    "act": 5,
+    "zone": "Crystalline Passage / Frozen River",
+    "immunities": [],
+    "monster_density": null,
+    "monster_level": null,
+    "difficulty": null
+  },
+  {
+    "act": 5,
+    "zone": "Glacial Trail / Drifter Cavern",
+    "immunities": [],
+    "monster_density": null,
+    "monster_level": null,
+    "difficulty": null
+  },
+  {
+    "act": 5,
+    "zone": "Frozen Tundra / Infernal Pit",
+    "immunities": [],
+    "monster_density": null,
+    "monster_level": null,
+    "difficulty": null
+  },
+  {
+    "act": 5,
+    "zone": "The Ancients’ Way / Icy Cellar",
+    "immunities": [],
+    "monster_density": null,
+    "monster_level": null,
+    "difficulty": null
+  },
+  {
+    "act": 5,
+    "zone": "Arreat Summit",
+    "immunities": [],
+    "monster_density": null,
+    "monster_level": null,
+    "difficulty": null
   }
 ]
