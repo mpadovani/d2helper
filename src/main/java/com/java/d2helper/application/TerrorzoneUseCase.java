@@ -1,6 +1,6 @@
 package com.java.d2helper.application;
-import com.java.d2helper.domain.ports.TerrorzoneClient;
-import com.java.d2helper.domain.ports.TerrorzoneRepositoryPort;
+import com.java.d2helper.application.ports.out.TerrorzoneClient;
+import com.java.d2helper.application.ports.out.TerrorzoneRepositoryPort;
 import com.java.d2helper.domain.model.Terrorzone;
 import com.java.d2helper.domain.model.TerrozoneApiResponse;
 import org.springframework.stereotype.Service;

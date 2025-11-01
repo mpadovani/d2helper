@@ -1,8 +1,7 @@
 package com.java.d2helper.application;
-import com.java.d2helper.domain.ports.ZoneRepositoryPort;
+import com.java.d2helper.application.ports.out.ZoneRepositoryPort;
 import com.java.d2helper.domain.model.Zone;
 import org.springframework.stereotype.Service;
-
 import java.util.List;
 
 @Service

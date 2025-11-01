@@ -1,12 +1,12 @@
 package com.java.d2helper.infrastructure.zone.adpter;
-import com.java.d2helper.domain.ports.ZoneRepositoryPort;
+import com.java.d2helper.application.ports.out.ZoneRepositoryPort;
 import com.java.d2helper.domain.model.Zone;
 import com.java.d2helper.infrastructure.zone.mapper.ZoneMapper;
 import com.java.d2helper.infrastructure.zone.repository.MongoZoneRepository;
-import org.springframework.stereotype.Service;
+import org.springframework.stereotype.Repository;
 import java.util.List;
 
-@Service
+@Repository
 public class ZoneRepositoryAdapter implements ZoneRepositoryPort {
     MongoZoneRepository mongoZoneRepository;
     ZoneMapper zoneMapper;
