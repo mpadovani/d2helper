@@ -1,6 +1,5 @@
 package com.java.d2helper.infrastructure.external;
-
-import com.java.d2helper.application.ports.TerrorzoneClient;
+import com.java.d2helper.application.ports.out.TerrorzoneClient;
 import com.java.d2helper.domain.exception.GenericApiException;
 import com.java.d2helper.domain.model.TerrozoneApiResponse;
 import org.springframework.stereotype.Component;
