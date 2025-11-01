@@ -13,8 +13,6 @@ import java.security.NoSuchAlgorithmException;
 
 @Component
 public class ApiKeyFilter extends OncePerRequestFilter {
-    @Value("${api.key}")
-    private String apiKey;
     private final AuthenticateHmacClientInputPort authenticateHmac;
 
     public ApiKeyFilter(AuthenticateHmacClientInputPort authenticateHmac) {
