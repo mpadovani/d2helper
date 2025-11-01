@@ -1,4 +1,4 @@
-package com.java.d2helper.infrastructure.interceptor;
+package com.java.d2helper.infrastructure.security;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;

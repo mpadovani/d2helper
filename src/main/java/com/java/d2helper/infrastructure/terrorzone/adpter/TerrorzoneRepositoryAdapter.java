@@ -1,5 +1,5 @@
 package com.java.d2helper.infrastructure.terrorzone.adpter;
-import com.java.d2helper.application.ports.TerrorzoneRepositoryPort;
+import com.java.d2helper.domain.ports.TerrorzoneRepositoryPort;
 import com.java.d2helper.domain.model.Terrorzone;
 import com.java.d2helper.infrastructure.terrorzone.model.TerrorzoneEntity;
 import com.java.d2helper.infrastructure.terrorzone.mapper.TerrorzoneMapper;

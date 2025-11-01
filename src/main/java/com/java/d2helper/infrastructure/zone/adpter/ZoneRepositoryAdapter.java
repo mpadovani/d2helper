@@ -1,5 +1,5 @@
 package com.java.d2helper.infrastructure.zone.adpter;
-import com.java.d2helper.application.ports.ZoneRepositoryPort;
+import com.java.d2helper.domain.ports.ZoneRepositoryPort;
 import com.java.d2helper.domain.model.Zone;
 import com.java.d2helper.infrastructure.zone.mapper.ZoneMapper;
 import com.java.d2helper.infrastructure.zone.repository.MongoZoneRepository;
