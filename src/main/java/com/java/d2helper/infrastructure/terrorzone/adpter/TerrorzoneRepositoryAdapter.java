@@ -1,14 +1,14 @@
 package com.java.d2helper.infrastructure.terrorzone.adpter;
-import com.java.d2helper.application.ports.TerrorzoneRepositoryPort;
+import com.java.d2helper.application.ports.out.TerrorzoneRepositoryPort;
 import com.java.d2helper.domain.model.Terrorzone;
 import com.java.d2helper.infrastructure.terrorzone.model.TerrorzoneEntity;
 import com.java.d2helper.infrastructure.terrorzone.mapper.TerrorzoneMapper;
 import com.java.d2helper.infrastructure.terrorzone.repository.TerrorzoneRepository;
-import org.springframework.stereotype.Service;
+import org.springframework.stereotype.Repository;
 
 import java.util.Optional;
 
-@Service
+@Repository
 public class TerrorzoneRepositoryAdapter implements TerrorzoneRepositoryPort {
     private final TerrorzoneRepository repository;
     private final TerrorzoneMapper mapper;

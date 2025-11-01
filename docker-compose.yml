@@ -1,0 +1,36 @@
+version: '3.8'
+
+services:
+  app:
+    build: .
+    container_name: d2helper-app
+    ports:
+      - "8080:8080"
+      
+    depends_on:
+      - redis
+      - mongo
+
+    environment:
+      SPRING_DATA_REDIS_HOST: redis
+      SPRING_DATA_REDIS_PORT: 6379
+      
+      SPRING_DATA_MONGODB_HOST: mongo
+      SPRING_DATA_MONGODB_PORT: 27017
+      SPRING_DATA_MONGODB_DATABASE: d2helper_db
+  redis:
+    container_name: d2helper-redis
+    image: redis:7.2-alpine
+    ports:
+      - "6379:6379"
+  mongo:
+    container_name: d2helper-mongodb
+    image: mongo:latest
+    ports:
+      - "27017:27017"
+    environment:
+      MONGO_INITDB_DATABASE: d2helper_db
+    volumes:
+      - mongo-data:/data/db
+volumes:
+  mongo-data:
