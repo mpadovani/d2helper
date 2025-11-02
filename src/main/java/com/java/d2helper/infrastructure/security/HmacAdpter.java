@@ -1,5 +1,5 @@
 package com.java.d2helper.infrastructure.security;
-import com.java.d2helper.application.ports.out.HmacGeneratorPort;
+import com.java.d2helper.application.ports.out.security.HmacGeneratorPort;
 import org.springframework.stereotype.Component;
 import java.security.NoSuchAlgorithmException;
 

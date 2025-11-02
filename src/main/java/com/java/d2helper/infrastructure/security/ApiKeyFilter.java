@@ -26,7 +26,6 @@ public class ApiKeyFilter extends OncePerRequestFilter {
         String nonce = request.getHeader("X-Nonce");
         String apiKeyId = request.getHeader("X-Api-Key-Id");
 
-
         if (hmac == null || hmac.isEmpty() ||
                 timestamp == null || timestamp.isEmpty() ||
                 nonce == null || nonce.isEmpty() ||

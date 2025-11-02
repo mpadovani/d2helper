@@ -8,16 +8,13 @@ import org.springframework.web.client.RestTemplate;
 
 @Component
 public class TerrorzoneApiClient implements TerrorzoneClient {
-    private final RestTemplate restTemplate;
-
-    public TerrorzoneApiClient(RestTemplate restTemplate) {
-        this.restTemplate = restTemplate;
-    }
+    public TerrorzoneApiClient() { }
 
     @Override
     public TerrozoneApiResponse fetchFromApi() {
         String url = "https://d2runewizard.com/api/terror-zone";
 
+        RestTemplate restTemplate = new RestTemplate();
         try {
             return restTemplate.getForObject(url, TerrozoneApiResponse.class);
         } catch (RestClientException e) {

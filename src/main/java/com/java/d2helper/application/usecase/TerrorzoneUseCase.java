@@ -1,4 +1,5 @@
-package com.java.d2helper.application;
+package com.java.d2helper.application.usecase;
+import com.java.d2helper.application.ports.in.TerrorzoneUseCaseInputPort;
 import com.java.d2helper.application.ports.out.TerrorzoneClient;
 import com.java.d2helper.application.ports.out.TerrorzoneRepositoryPort;
 import com.java.d2helper.domain.model.Terrorzone;
@@ -10,7 +11,7 @@ import java.time.ZoneOffset;
 import java.time.temporal.ChronoUnit;
 
 @Service
-public class TerrorzoneUseCase {
+public class TerrorzoneUseCase implements TerrorzoneUseCaseInputPort {
     private TerrorzoneClient apiClient;
     private final TerrorzoneRepositoryPort repository;
 
@@ -21,6 +22,7 @@ public class TerrorzoneUseCase {
     }
 
     public Terrorzone get() {
+        repository.deleteAll();
         Long id = generateId();
         return repository.findById(id).orElseGet(() -> generateNewTerrorzone(id));
     }
