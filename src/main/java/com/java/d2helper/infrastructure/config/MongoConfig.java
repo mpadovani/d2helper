@@ -1,3 +1,4 @@
+package com.java.d2helper.infrastructure.config;
 import com.mongodb.client.MongoClient;
 import com.mongodb.client.MongoClients;
 import org.springframework.context.annotation.Bean;
