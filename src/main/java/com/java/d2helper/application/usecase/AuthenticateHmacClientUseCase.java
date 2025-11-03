@@ -1,8 +1,8 @@
-package com.java.d2helper.application;
+package com.java.d2helper.application.usecase;
 import com.java.d2helper.application.ports.in.AuthenticateHmacClientInputPort;
 import com.java.d2helper.application.ports.out.CachePort;
-import com.java.d2helper.application.ports.out.HmacGeneratorPort;
-import com.java.d2helper.application.ports.out.SecretKeyPort;
+import com.java.d2helper.application.ports.out.security.HmacGeneratorPort;
+import com.java.d2helper.application.ports.out.security.SecretKeyPort;
 import org.springframework.stereotype.Service;
 
 @Service

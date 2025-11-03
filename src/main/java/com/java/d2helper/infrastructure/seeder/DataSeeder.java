@@ -1,4 +1,4 @@
-package com.java.d2helper.seeder;
+package com.java.d2helper.infrastructure.seeder;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.java.d2helper.infrastructure.zone.model.ZoneEntity;
